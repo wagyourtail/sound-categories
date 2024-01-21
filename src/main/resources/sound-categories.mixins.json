@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "xyz.wagyourtail.soundcategories.mixins",
+  "client": [
+    "MixinGameOptions",
+    "MixinOptionsScreen",
+    "MixinSoundEngine"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinBuiltinModTexturePack"
+  ]
+}

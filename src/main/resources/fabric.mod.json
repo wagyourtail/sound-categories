@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sound-categories",
+  "version": "${version}",
+  "name": "Sound Categories",
+  "description": "Adds categories for sound volume sliders.",
+  "author": "Wagyourtail",
+  "license": "MPL-2.0",
+  "entrypoints": {
+    "client": [
+
+    ]
+  },
+  "mixins": [
+    "sound-categories.mixins.json"
+  ],
+  "accessWidener": "sound-categories.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}

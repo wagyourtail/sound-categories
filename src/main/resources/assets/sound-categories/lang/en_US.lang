@@ -1,1 +1,10 @@
 soundcategories.title=Music & Sound Options
+soundcategories.category.master=Master Volume
+soundcategories.category.music=Music
+soundcategories.category.record=Jukebox/Note Blocks
+soundcategories.category.weather=Weather
+soundcategories.category.block=Blocks
+soundcategories.category.hostile=Hostile Creatures
+soundcategories.category.neutral=Friendly Creatures
+soundcategories.category.player=Players
+soundcategories.category.ambient=Ambient/Environment

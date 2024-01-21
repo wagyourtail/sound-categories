@@ -17,6 +17,15 @@ public class SliderWidget extends ButtonWidget {
         this.value = f;
         this.setter = setter;
         this.messagePart = string;
+        this.message = this.messagePart + ": " + Math.round(value * 100) + "%";
+    }
+
+    public SliderWidget(int i, int j, int k, int l, int m, String string, double f, DoubleConsumer setter) {
+        super(i, j, k, l, m, string);
+        this.value = f;
+        this.setter = setter;
+        this.messagePart = string;
+        this.message = this.messagePart + ": " + Math.round(value * 100) + "%";
     }
 
     @Override
